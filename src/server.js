@@ -15,7 +15,7 @@ server.use('/assets', express.static('assets'));
 
 server.get('/', (req, res) => {
   const store = createStore(reducers);
-  
+
   store.dispatch(enableMobile());
   const state = store.getState();
 

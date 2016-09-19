@@ -1,13 +1,13 @@
-# react-server-boilerplate 
+# react-redux-server-boilerplate
 
-React server side rendering boilerplate
+React / Redux server side rendering boilerplate
 
 ## Installation
 
 Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
 
-```
-npm install react-server-boilerplate --save
+```sh
+npm install react-redux-server-boilerplate --save
 ```
 
 
@@ -17,17 +17,19 @@ npm install react-server-boilerplate --save
 - [express](https://github.com/expressjs/express): Fast, unopinionated, minimalist web framework
 - [react](https://github.com/facebook/react): React is a JavaScript library for building user interfaces.
 - [react-dom](https://github.com/facebook/react): React package for working with the DOM.
+- [react-redux](https://github.com/reactjs/react-redux): Official React bindings for Redux
+- [redux](https://github.com/reactjs/redux): Predictable state container for JavaScript apps
 
 ## Dev Dependencies
 
 - [babel-core](https://github.com/babel/babel/tree/master/packages): Babel compiler core.
 - [babel-loader](https://github.com/babel/babel-loader): babel module loader for webpack
-- [babel-polyfill](https://github.com/babel/babel/tree/master/packages): React server side rendering boilerplate
+- [babel-polyfill](https://github.com/babel/babel/tree/master/packages): Provides polyfills necessary for a full ES2015+ environment
 - [babel-preset-es2015](https://github.com/babel/babel/tree/master/packages): Babel preset for all es2015 plugins.
 - [babel-preset-react](https://github.com/babel/babel/tree/master/packages): Babel preset for all React plugins.
 - [css-loader](https://github.com/webpack/css-loader): css loader module for webpack
 - [extract-text-webpack-plugin](https://github.com/webpack/extract-text-webpack-plugin): Extract text from bundle into a file.
-- [functionhappy](https://github.com/Roilan/react-server-boilerplate): semistandard wrapped with eslint-config-function-happy
+- [functionhappy](https://github.com/Roilan/react-redux-server-boilerplate): semistandard wrapped with eslint-config-function-happy
 - [json-loader](https://github.com/webpack/json-loader): json loader module for webpack
 - [node-sass](https://github.com/sass/node-sass): Wrapper around libsass
 - [sass-loader](https://github.com/jtangelder/sass-loader): Sass loader for webpack

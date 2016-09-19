@@ -1,8 +1,9 @@
 import React, { Component, PropTypes } from 'react';
+import { connect } from 'react-redux';
 
-export default class App extends Component {
+class App extends Component {
   render() {
-    const { isMobile } = this.props;
+    const { isMobile } = this.props.device;
 
     return (
       <div>
@@ -13,5 +14,9 @@ export default class App extends Component {
 }
 
 App.propTypes = {
-  isMobile: PropTypes.bool.isRequired
+  device: PropTypes.object.isRequired
 };
+
+const mapStateToProps = ({ device }) => ({ device });
+
+export default connect(mapStateToProps)(App);
